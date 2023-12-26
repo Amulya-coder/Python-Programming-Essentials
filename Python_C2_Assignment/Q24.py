@@ -5,8 +5,9 @@ string instead.
 '''
 
 s="w3resource"
-if(len(s)<=2):
+if len(s)<2:
     print('')
-temp="".join(s[:2])
-res="".join(s[-2:])
-print(temp+res)
+else:
+    res="".join(s[:2])
+    temp="".join(s[-2:])
+    print(res+temp)
