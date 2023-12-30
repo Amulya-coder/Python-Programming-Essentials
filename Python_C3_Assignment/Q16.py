@@ -11,3 +11,5 @@ def string(s):
             d['lowercase']+=1
             
     return d
+    s="The quick Brow Fox"
+    print(string(s))
