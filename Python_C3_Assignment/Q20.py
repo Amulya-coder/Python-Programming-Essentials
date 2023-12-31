@@ -14,3 +14,16 @@ class Circle:
         
     def calculate_perimeter(self):
         return 2*math.pi*self.radius
+
+
+# Created the object of class Circle provided radius
+r=float(input('Enter the radius '))
+circle=Circle(r)
+
+# Calculating the area using calculate_area function
+area=circle.calculate_area()
+
+# Calculating the perimeter using calculate_perimeter
+perimeter=circle.calculate_perimeter()
+print(area)
+print(perimeter)
